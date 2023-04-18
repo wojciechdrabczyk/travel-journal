@@ -4,7 +4,7 @@ import data from "./data";
 
 export const App = () => {
   const cards = data.map((item) => {
-    return <Card coverImg={item.coverImg} />;
+    return <Card key={item.id} {...item} />;
   });
 
   return (

@@ -2,7 +2,9 @@ export default [
   {
     id: 1,
     coverImg: "Mount-Fuji.jpg",
-    country: "Japan",
+    gmaps:
+      "https://www.google.com/maps/place/Mount+Fuji/@35.3606421,138.7170637,15z/data=!3m1!4b1!4m6!3m5!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.3606255!4d138.7273634!16zL20vMGNrczA",
+    country: "JAPAN",
     location: "Mount Fuji",
     date: "12 Jan, 2021 - 24 Jan, 2021",
     description:
@@ -11,7 +13,9 @@ export default [
   {
     id: 2,
     coverImg: "Sydney-Opera-House.jpg",
-    country: "Australia",
+    gmaps:
+      "https://www.google.com/maps/place/Sydney+Opera+House/@-33.8567799,151.2127218,17z/data=!3m2!4b1!5s0x6b12ae67d234a27f:0xd6d4e9380ca1e32f!4m6!3m5!1s0x6b12ae665e892fdd:0x3133f8d75a1ac251!8m2!3d-33.8567844!4d151.2152967!16zL20vMDZfbm0",
+    country: "AUSTRALIA",
     location: "Sydney Opera House",
     date: "27 May, 2021 - 8 Jun, 2021",
     description:
@@ -20,7 +24,9 @@ export default [
   {
     id: 3,
     coverImg: "Geirangerfjord.jpg",
-    country: "Norway",
+    gmaps:
+      "https://www.google.com/maps/place/Geirangerfjord/@62.1049045,6.9928131,12z/data=!3m1!4b1!4m6!3m5!1s0x46169d427b268c51:0xb8c99540dcc397fe!8m2!3d62.101506!4d7.0940817!16zL20vMDZ4eXFi",
+    country: "NORWAY",
     location: "Geirangerfjord",
     date: "01 Oct, 2021 - 18 Nov, 2021",
     description:

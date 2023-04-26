@@ -3,7 +3,7 @@
 }
 body {
   font-family: Inter;
-  max-width: 400px;
+  width: 500px;
 }
 
 nav {
@@ -24,16 +24,70 @@ nav .nav--logo {
   margin-right: -18px;
 }
 .card {
-  width: 175px;
   font-size: 12px;
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
   position: relative;
-  padding: 5px;
+  padding: 8px;
+}
+.card--country {
+  margin-bottom: -7px;
+  align-items: center;
+  display: flex;
+}
+.gmaps {
+  margin-left: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+a:visited {
+  text-decoration: none;
+  color: #918e9b;
+}
+.card--pin {
+  margin-right: 4px;
 }
 .card--image {
-  width: 100%;
+  width: 125px;
+  height: 168px;
+  left: 40px;
+  top: 100px;
   border-radius: 9px;
   margin-bottom: 9px;
+}
+.country {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+.location {
+  margin: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+.date {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2b283a;
+}
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2b283a;
+  width: 326px;
+  height: 45px;
 }
